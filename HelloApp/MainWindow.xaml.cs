@@ -27,7 +27,7 @@ namespace HelloApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello WPF");
+            MessageBox.Show("Button content is [" + (sender as Button).Content +"]");
         }
     }
 }
